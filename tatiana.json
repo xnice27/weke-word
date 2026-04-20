@@ -2,7 +2,7 @@
   "type": "micro",
   "wake_word": "Tatiana",
   "author": "Przemek",
-  "model": "https://raw.githubusercontent.com/xnice27/weke-word/main/tatiana.tflite",
+  "model": "tatiana.tflite",
   "version": 2,
   "trained_languages": ["pl"],
   "micro": {
