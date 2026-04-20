@@ -1,0 +1,15 @@
+{
+  "type": "micro",
+  "wake_word": "Tatiana",
+  "author": "Przemek",
+  "model": "tatiana.tflite",
+  "version": 2,
+  "trained_languages": ["pl"],
+  "micro": {
+    "probability_cutoff": 0.8,
+    "sliding_window_size": 5,
+    "feature_step_size": 10,
+    "tensor_arena_size": 32768,
+    "minimum_esphome_version": "2024.7.0"
+  }
+}
